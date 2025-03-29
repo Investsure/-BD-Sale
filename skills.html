@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <img src="assets/icons/html.svg" alt="HTML">
+                <p>HTML</p>
+                <div class="progress-bar" data-level="90%"></div>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/css.svg" alt="CSS">
+                <p>CSS</p>
+                <div class="progress-bar" data-level="85%"></div>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/js.svg" alt="JavaScript">
+                <p>JavaScript</p>
+                <div class="progress-bar" data-level="80%"></div>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/react.svg" alt="React">
+                <p>React</p>
+                <div class="progress-bar" data-level="75%"></div>
+            </div>
+            <div class="skill">
+                <img src="assets/icons/node.svg" alt="Node.js">
+                <p>Node.js</p>
+                <div class="progress-bar" data-level="70%"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/animations.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".progress-bar").forEach(bar => {
+                bar.style.width = bar.getAttribute("data-level");
+            });
+        });
+    </script>
+</body>
+</html>
