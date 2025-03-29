@@ -1,8 +1,9 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Developer Swygen </title>
+    <title>Official Developer SwyGen</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
         <div class="hero-content">
             <h1>I build <span id="typed"></span></h1>
             <p>Creating scalable and high-performance web applications.</p>
-            <img src="https://assets.onecompiler.app/42weepxyg/43d7rh22j/Grey%20Yellow%20Minimalist%20Software%20Development%20Logo.png" alt="Profile Image" class="profile-img">
+            <img src="assets/images/profile.png" alt="Profile Image" class="profile-img">
             <div class="cta-buttons">
                 <a href="#" class="btn">Download Resume</a>
                 <a href="#contact" class="btn btn-alt">Contact Me</a>
@@ -23,22 +24,23 @@
             </div>
         </div>
         <div class="floating-icons">
-            <img src="assets/icons/html.svg" alt="HTML">
-            <img src="assets/icons/css.svg" alt="CSS">
-            <img src="assets/icons/js.svg" alt="JavaScript">
-            <img src="assets/icons/react.svg" alt="React">
+            <img src="assets/icons/html.svg" alt="HTML" class="floating">
+            <img src="assets/icons/css.svg" alt="CSS" class="floating">
+            <img src="assets/icons/js.svg" alt="JavaScript" class="floating">
+            <img src="assets/icons/react.svg" alt="React" class="floating">
         </div>
         <div class="whatsapp-support">
             <a href="https://wa.me/message/7GF4LPFCNB4AE1" target="_blank">
-                <img src="https://assets.onecompiler.app/43d7p9g8f/43d7rf7ww/whatsapp.png" alt="WhatsApp Support">
+                <img src="assets/icons/whatsapp.svg" alt="WhatsApp Support">
             </a>
         </div>
     </header>
+    
     <script src="js/script.js"></script>
     <script src="js/animations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script>
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function() {
             new Typed("#typed", {
                 strings: ["Scalable Web Applications 🚀", "Interactive UI/UX ✨", "High-Performance Systems 💻"],
                 typeSpeed: 50,
