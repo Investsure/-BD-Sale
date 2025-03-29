@@ -2,61 +2,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Portfolio - Shaan</title>
+    <title>Personal Developer Swygen </title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
-    <script defer src="js/script.js"></script>
-    <script defer src="js/animations.js"></script>
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Shaan</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header><section id="home">
-    <div class="hero">
-        <h1>Hi, I'm <span class="highlight">Shaan</span></h1>
-        <p>A Passionate Web Developer & Designer</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </div>
-</section>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>I'm a self-taught web developer specializing in front-end and back-end development.</p>
-</section>
-
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="project-gallery">
-        <div class="project">
-            <img src="assets/images/project1.jpg" alt="Project 1">
-            <h3>Project Title 1</h3>
-            <p>Short description of the project.</p>
+    <header class="hero">
+        <canvas id="backgroundCanvas"></canvas>
+        <div class="hero-content">
+            <h1>I build <span id="typed"></span></h1>
+            <p>Creating scalable and high-performance web applications.</p>
+            <img src="https://assets.onecompiler.app/42weepxyg/43d7rh22j/Grey%20Yellow%20Minimalist%20Software%20Development%20Logo.png" alt="Profile Image" class="profile-img">
+            <div class="cta-buttons">
+                <a href="#" class="btn">Download Resume</a>
+                <a href="#contact" class="btn btn-alt">Contact Me</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="assets/icons/github.svg" alt="GitHub"></a>
+                <a href="#"><img src="assets/icons/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="assets/icons/twitter.svg" alt="Twitter"></a>
+            </div>
         </div>
-        <div class="project">
-            <img src="assets/images/project2.jpg" alt="Project 2">
-            <h3>Project Title 2</h3>
-            <p>Short description of the project.</p>
+        <div class="floating-icons">
+            <img src="assets/icons/html.svg" alt="HTML">
+            <img src="assets/icons/css.svg" alt="CSS">
+            <img src="assets/icons/js.svg" alt="JavaScript">
+            <img src="assets/icons/react.svg" alt="React">
         </div>
-    </div>
-</section>
-
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out via email: <strong>contact@shaan.com</strong></p>
-</section>
-
-<footer>
-    <p>&copy; 2025 Shaan. All rights reserved.</p>
-</footer>
-
+        <div class="whatsapp-support">
+            <a href="https://wa.me/01621439834" target="_blank">
+                <img src="https://assets.onecompiler.app/43d7p9g8f/43d7rf7ww/whatsapp.png" alt="WhatsApp Support">
+            </a>
+        </div>
+    </header>
+    <script src="js/script.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </body>
 </html>
